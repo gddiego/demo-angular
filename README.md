@@ -1,7 +1,7 @@
 # AngularDemo
 
 Projeto com [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
-## Hospegado heroku
+## Hospedado heroku
 
 Projeto esta hospedado no heroku Link : https://angular08demo.herokuapp.com/dashboard 
 ## Development server
