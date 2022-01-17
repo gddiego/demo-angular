@@ -1,0 +1,19 @@
+.avatar {
+  margin-top: 16px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.name {
+  margin-top: 8px;
+  font-weight: normal;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-family: "roboto";
+  color: rgb(122, 119, 119);
+  padding: 10px;
+}

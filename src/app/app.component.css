@@ -1,48 +1,68 @@
-.example-spacer {
-  flex: 1 1 auto;
-}
-.example-container .mat-form-field + .mat-form-field {
-  margin-left: 20px;
-}
-
-mat-sidenav-container, mat-sidenav-content, mat-sidenav {
-  height: 100%;
+mat-toolbar {
+    background: #0ca940;
+    color: white;
 }
 
 mat-sidenav {
-  width: 250px;
+    margin: 16px;
+    width: 200px;
+    border-right: none;
+    background: #0ca940;
+    color: white;
+    border-radius: 10px;
+    padding: 16px;
+    text-align: center;
 }
 
-a {
-  text-decoration: none;
-  color: white;
+.content {
+    height: calc(100vh - 98px);
+    border-radius: 10px;
+    margin: 16px;
+    margin-left: 32px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    font-size: 2rem;
+    color: lightgray;
 }
 
-a:hover,
-a:active {
-  color: lightgray;
+mat-sidenav-container {
+    height: calc(100vh - 65px);
 }
 
-.navigation-items {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  cursor: pointer;
+.menu-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1rem;
+
+ 
 }
 
-.icon {
-  display: inline-block;
-  height: 30px;
-  margin: 0 auto;
-  padding-right: 5px;
-  text-align: center;
-  vertical-align: middle;
-  width: 15%;
+.avatar {
+    margin-top: 16px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
 }
 
-.label {
-  display: inline-block;
-  line-height: 30px;
-  margin: 0;
-  width: 85%;
+.name {
+    margin-top: 8px;
+    font-weight: normal;
+}
+
+.designation {
+    margin-top: 2px;
+    font-size: 0.7rem;
+    color: lightgrey;
+}
+
+mat-divider {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    background-color: rgba(255, 255, 255, 0.5);
 }

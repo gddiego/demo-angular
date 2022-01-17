@@ -14,6 +14,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { DataService } from './data/data.service';
 import { PostDialogComponent } from './post-dialog/post-dialog.component';
 import { LoginComponent } from './login/login.component';
+import { AboutComponent } from './about/about.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,6 +22,7 @@ import { LoginComponent } from './login/login.component';
     DashboardComponent,
     PostDialogComponent,
     LoginComponent,
+    AboutComponent,
   ],
   imports: [
     BrowserModule,
