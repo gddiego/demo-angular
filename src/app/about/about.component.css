@@ -17,3 +17,14 @@
   color: rgb(122, 119, 119);
   padding: 10px;
 }
+.p-card-apresentation-sobre{
+   margin-top: 1px;
+  font-weight: normal;
+  font-size: 25px;
+  
+  align-items: center;
+  font-weight: 400;
+  font-family: "roboto";
+  color: rgb(122, 119, 119);
+  padding: 9px;
+}
