@@ -55,4 +55,15 @@ a {
     font-family: "roboto";
     display: flex;
     align-items: flex-end;
+        margin-left: -160px;
+
+}
+
+@media (max-width: 600px)
+{
+  .designation{
+    display: flex;
+    align-items: flex-end;
+        margin-left: -160px;
+  }
 }

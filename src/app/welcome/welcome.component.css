@@ -26,3 +26,11 @@ a {
   color: rgb(122, 119, 119);
   padding: 10px;
 }
+@media (max-width: 600px)
+{
+  .icons{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+}
