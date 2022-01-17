@@ -6,7 +6,7 @@
 }
 
 .name {
-  margin-top: 8px;
+  margin-top: auto;
   font-weight: normal;
   font-size: 17px;
   display: flex;
@@ -15,7 +15,13 @@
   font-weight: 400;
   font-family: "roboto";
   color: rgb(122, 119, 119);
-  padding: 10px;
+  
+}
+@media (max-width: 600px)
+{
+  .name{
+    margin-top: 400px;
+  }
 }
 .p-card-apresentation-sobre{
    margin-top: 1px;
