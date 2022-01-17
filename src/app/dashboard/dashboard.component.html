@@ -25,6 +25,10 @@
                   <mat-header-cell *matHeaderCellDef> Titulo </mat-header-cell>
                   <mat-cell *matCellDef="let element"> {{element.title}} </mat-cell>
                 </ng-container>
+                <ng-container matColumnDef="body">
+                  <mat-header-cell *matHeaderCellDef> Descrição </mat-header-cell>
+                  <mat-cell *matCellDef="let element"> {{element.body}} </mat-cell>
+                </ng-container>
                 <ng-container matColumnDef="category">
                   <mat-header-cell *matHeaderCellDef> Categoria </mat-header-cell>
                   <mat-cell *matCellDef="let element"> {{element.category}} </mat-cell>
@@ -34,6 +38,9 @@
                   <mat-cell *matCellDef="let element">
                   <a (click)="deletePost(element.position)" type="button">
                     <i class="las la-trash-alt" style="font-size:29px; color: rgb(195, 86, 86);"></i>
+                  </a>
+                  <a (click)="viewPost(element.position)" type="button">
+                    <i class="las la-eye" style="font-size:29px; color: rgb(50, 211, 85);"></i>
                   </a>
                   </mat-cell>
                 </ng-container>

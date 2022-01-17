@@ -14,7 +14,7 @@ import { PostDialogComponent } from '../post-dialog/post-dialog.component';
 export class DashboardComponent {
   constructor(public dialog: MatDialog, private dataService: DataService) {}
 
-  displayedColumns = ['date_posted', 'title', 'category', 'delete'];
+  displayedColumns = ['date_posted', 'title', 'body', 'category', 'delete'];
   dataSource = new PostDataSource(this.dataService);
   openDialog(): void {
     let dialogRef = this.dialog.open(PostDialogComponent, {
@@ -28,10 +28,11 @@ export class DashboardComponent {
     });
   }
   deletePost(id: number) {
-    
-      this.dataService.deletePost(id);
-      this.dataSource = new PostDataSource(this.dataService);
-   
+    this.dataService.deletePost(id);
+    this.dataSource = new PostDataSource(this.dataService);
+  }
+  viewPost(id: number) {
+    this.dataService.viewPost(id);
   }
 }
 
