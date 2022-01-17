@@ -1,17 +1,22 @@
 <mat-sidenav-container>
   <mat-sidenav #sidenav role="navigation">
     <mat-nav-list>
-      <a matTooltip="Sair" routerLink="/login">
+      <a mat-list-item routerLink="/login">
         <i class="las la-sign-out-alt" style="font-size:29px"></i>
+        <span class="label">Login</span>
       </a>
-      <a routerLink="/dashboard">
-        <i class="las la-shapes" style="font-size:29px" matTooltip="Dashboard"></i>
-      </a>
-     
-      <a routerLink="/" matTooltip="Home">
+      <a mat-list-item routerLink="/">
         <i class="las la-home" style="font-size:29px"></i>
+        <span class="label">Home</span>
       </a>
-      
+      <a mat-list-item routerLink="/dashboard">
+        <i class="las la-shapes" style="font-size:29px" matTooltip="Dashboard"></i>
+        <span class="label">Dashboard</span>
+      </a>
+      <!-- <a mat-list-item type="button" routerLink="/login">
+        <i class="las la-sign-out-alt" style="font-size:29px"></i>
+        <span class="label">LogOut</span>
+      </a> -->
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
