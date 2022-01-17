@@ -41,8 +41,8 @@ a {
 
 .name {
   font-size: 19px;
-  font-weight: 400;
-  font-family: "roboto";
+ font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
   color: rgb(122, 119, 119);
   padding: 10px;
   display: flex;
@@ -51,8 +51,8 @@ a {
 .designation {
   color: #0ca940;
     font-size: 19px;
-    font-weight: 400;
-    font-family: "roboto";
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     align-items: flex-end;
         margin-left: -160px;

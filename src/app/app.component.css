@@ -39,7 +39,8 @@ mat-sidenav-container {
     align-items: center;
     justify-content: flex-start;
     font-size: 1rem;
-
+ font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
  
 }
 
@@ -53,12 +54,16 @@ mat-sidenav-container {
 .name {
     margin-top: 8px;
     font-weight: normal;
+     font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .designation {
     margin-top: 2px;
     font-size: 0.7rem;
     color: lightgrey;
+     font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
 }
 
 mat-divider {

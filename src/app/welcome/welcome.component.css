@@ -3,8 +3,8 @@
 }
 .describe-app {
   font-size: 20px;
-  font-weight: 400;
-  font-family: "roboto";
+   font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
   color: rgb(122, 119, 119);
   padding: 10px;
 }
@@ -21,8 +21,8 @@ a {
   justify-content: center;
   align-items: center;
   font-size: 20px;
-  font-weight: 400;
-  font-family: "roboto";
+   font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
   color: rgb(122, 119, 119);
   padding: 10px;
 }
