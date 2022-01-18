@@ -1,11 +1,10 @@
 .card-box {
   border-radius: 19px;
-  
 }
 .describe-app {
   font-size: 20px;
-   font-weight: 500;
-    font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
   color: rgb(96, 97, 96);
   padding: 10px;
 }
@@ -22,30 +21,29 @@ a {
   justify-content: center;
   align-items: center;
   font-size: 20px;
-   font-weight: 600;
-    font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
   color: rgb(122, 119, 119);
   padding: 10px;
 }
-@media (max-width: 600px)
-{
-  .icons{
+@media (max-width: 600px) {
+  .icons {
     display: flex;
-  justify-content: center;
-  align-items: center;
+    justify-content: center;
+    align-items: center;
   }
 }
 .apresentation-stacks {
-   display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   font-size: 15px;
-   font-weight: 800;
-    font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-family: "Montserrat", sans-serif;
   color: #0ca940;
   padding: 10px;
 }
-.card-title-line{
-    height: 100px;
-    border-right: 1px solid #0ca940;
+.card-title-line {
+  height: 100px;
+  border-right: 1px solid #0ca940;
 }
