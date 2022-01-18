@@ -13,6 +13,9 @@ import { MatTableModule } from '@angular/material/table';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatSelectModule } from '@angular/material/select';
 import { MatTooltipModule } from '@angular/material/tooltip';
+import { MatTabsModule } from '@angular/material/tabs';
+import { MatChipsModule } from '@angular/material/chips';
+
 @NgModule({
   imports: [
     MatToolbarModule,
@@ -30,6 +33,8 @@ import { MatTooltipModule } from '@angular/material/tooltip';
     MatDialogModule,
     MatSelectModule,
     MatTooltipModule,
+    MatTabsModule,
+    MatChipsModule,
   ],
   exports: [
     MatToolbarModule,
@@ -48,6 +53,8 @@ import { MatTooltipModule } from '@angular/material/tooltip';
     MatInputModule,
     MatSelectModule,
     MatTooltipModule,
+    MatTabsModule,
+    MatChipsModule,
   ],
 })
 export class MaterialModule {}
