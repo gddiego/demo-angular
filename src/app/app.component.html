@@ -9,7 +9,8 @@
 <mat-sidenav-container>
   <mat-sidenav #sidenav="matSidenav" class="mat-elevation-z8">
 
-    <img class="avatar mat-elevation-z8" src="https://avatars.githubusercontent.com/u/28902884?s=400&u=a654c78300a2691b261ee0dbb20b16fef70f9353&v=4" />
+    <img class="avatar mat-elevation-z8"
+      src="https://avatars.githubusercontent.com/u/28902884?s=400&u=a654c78300a2691b261ee0dbb20b16fef70f9353&v=4" />
 
     <h4 class="name">Diego Mendes</h4>
     <p class="designation">Desenvolvedor Full stack</p>
@@ -25,21 +26,29 @@
       <span>Profile</span>
     </a>
     <button mat-button class="menu-button" [routerLink]="'/about'">
-    <i class="las la-question" style="font-size:29px"></i>
+      <i class="las la-question" style="font-size:29px"></i>
       <span>About</span>
     </button>
 
     <mat-divider></mat-divider>
 
     <button mat-button class="menu-button" [routerLink]="'help'">
-      <i class="las la-info-circle"style="font-size:29px" ></i>
+      <i class="las la-info-circle" style="font-size:29px"></i>
       <span>Help</span>
     </button>
 
   </mat-sidenav>
-  <mat-sidenav-content>
-    <div class="content mat-elevation-z8">
-    <router-outlet></router-outlet>
+<mat-sidenav-content >
+    <div fxLayout="column">
+   
+        <div class="content mat-elevation-z8 " >
+          <router-outlet>
+            
+          </router-outlet>
+    
+      </div>
+    
     </div>
+
   </mat-sidenav-content>
 </mat-sidenav-container>

@@ -1,3 +1,4 @@
+
 mat-toolbar {
   background: #0ca940;
   color: white;
@@ -20,10 +21,7 @@ mat-sidenav {
   margin: 16px;
   margin-left: 32px;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
+  
 
   font-size: 2rem;
   color: lightgray;
