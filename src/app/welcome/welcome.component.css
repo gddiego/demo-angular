@@ -1,7 +1,24 @@
 .card-box {
   border-radius: 19px;
-  background-color: rgb(39, 32, 32);
+  /* background-color: rgb(39, 32, 32); */
   
+}
+.container {
+  padding: 5px;
+  height: 84vh;
+}
+.grid-items{
+ border-radius: 5px;
+  padding: 10px;
+  min-width: 300px;
+  height: 100px;
+  margin: 5px;
+}
+.grid-item {
+  border-radius: 19px;
+  background-color: rgb(39, 32, 32);
+  padding: 10px;
+  height: 100px;
 }
 .spacer-card{
       margin-left: 25´0px;
@@ -52,17 +69,8 @@ a {
   padding: 10px;
   
 }
-.grid-item {
-  background-color: #0ca940;
-  border-radius: 5px;
-  padding: 10px;
-  min-width: 300px;
-  height: 100px;
-  margin: 5px;
-}
-.container {
-  padding: 10px;
-}
+
+
 .card-title-line {
   height: 100px;
   border-right: 1px solid #0ca940;

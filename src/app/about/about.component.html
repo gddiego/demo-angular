@@ -1,19 +1,21 @@
 
-<div fxLayout="column">
-  <!-- Header -->
-  <!-- <div fxLayout="row" fxFlex="60px" fxLayoutAlign="center center">
-    <span>Sobre</span>
-  </div> -->
-  <!-- Main -->
-  <div fxLayout="row wrap" style="height: 200px">
-    <div fxFlexOrder="1" fxLayout="row" fxLayout.xs="column" fxFlex.xs="100" fxFlex.gt-xs="30"
-      style="background-color: #fd7474" fxLayoutAlign="center center">
+
+<div fxLayout="column" fxLayoutGap="10px" class="container">
+  <div fxLayout="row" fxFlex="33%" class="block-1">
+    <div fxFlex fxLayoutAlign="center center" fxFlexFill class="grid-item">
+
+      <div fxLayout="50">
+        hello
+      </div>
     </div>
-    <div fxFlexOrder="5" fxLayout="row" fxFlex.xs="100" fxFlex.gt-xs="70" fxFlex.gt-sm="50"
-      style="background-color: #e8fd74" fxLayoutAlign="center center">article</div>
-    <div fxFlexOrder="10" fxLayout="row" fxHide.xs fxHide.sm fxFlex.gt-sm="20" style="background-color: #74fd86"
-      fxLayoutAlign="center center">toc</div>
+
   </div>
-  <!-- Footer -->
-  <div fxLayout="row" fxFlex="300px" style="background-color: #74edfd" fxLayoutAlign="center center">footer</div>
+  <div fxLayout.gt-sm="row" fxLayout.lt-md="column" fxLayoutGap="10px" fxFlex="33%" class="block-2">
+    <div fxFlex.gt-sm="70%" fxFlex.lt-md="50%" fxLayoutAlign="center center" fxFlexFill class="grid-item">B</div>
+    <div fxFlex.gt-sm="30%" fxFlex.lt-md="50%" fxLayoutAlign="center center" fxFlexFill class="grid-item">C</div>
+  </div>
+  <div fxLayout="row" fxLayoutGap="10px" fxFlex="33%" class="block-3">
+    <div fxFlex.gt-sm="30%" fxFlex.lt-md="50%" fxLayoutAlign="center center" fxFlexFill class="grid-item">D</div>
+    <div fxFlex.gt-sm="70%" fxFlex.lt-md="50%" fxLayoutAlign="center center" fxFlexFill class="grid-item">E</div>
+  </div>
 </div>

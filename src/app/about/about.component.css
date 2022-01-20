@@ -34,3 +34,20 @@
   color: rgb(122, 119, 119);
   padding: 9px;
 }
+.container {
+  padding: 5px;
+  height: 100vh;
+}
+.grid-items{
+ border-radius: 5px;
+  padding: 10px;
+  min-width: 300px;
+  height: 100px;
+  margin: 5px;
+}
+.grid-item {
+  border-radius: 19px;
+  background-color: rgb(39, 32, 32);
+  padding: 10px;
+  height: 100px;
+}

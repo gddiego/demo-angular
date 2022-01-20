@@ -1,7 +1,19 @@
 .card {
   min-width: 80%;
 }
-
+.container {
+  padding: 5px;
+  height: 100vh;
+}
+.intro-section {
+   height: 500px;
+}
+.grid-item {
+  background-color: lightsalmon;
+  border-radius: 5px;
+  padding: 10px;
+  height: 100px;
+}
 .example-container {
   display: flex;
   flex-direction: column;
